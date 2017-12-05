@@ -4,5 +4,13 @@
 }
 
 .reserved {
-    background-color: red;
+    background-color: firebrick;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
 }
