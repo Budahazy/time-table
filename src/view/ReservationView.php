@@ -10,6 +10,8 @@
 
 <form action="../controller/ReservationController.php" method="get">
    <label>MOND MEG A NEVED!</label><br>
+    <input type="hidden" name="day" value="PHP KÓDOT IDE">
+    <input type="hidden" name="time" value="PHP KÓDOT IDE">
     <input type="text" name="name"><br>
     <input type="submit" name="submit">
 </form>

@@ -19,7 +19,7 @@
         <?= '<tr>' ?>
 
         <?php foreach ($daysOfWeek as $day) : ?>
-            <?= '<td class="free"><a href="?day=' . $day . '&time=' . $i . '">' ?>
+            <?= '<td class="free"><a href="ReservationController.php?day=' . $day . '&time=' . $i . '">' ?>
             <?= $day . ' - ' . $i . ':00' ?>
             <?= '</a></td>' ?>
         <?php endforeach; ?>
